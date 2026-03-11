@@ -134,7 +134,7 @@ if __name__ == "__main__":
     indices = ['MH_01_easy','MH_02_easy', 'MH_03_medium', 'MH_04_difficult', 'MH_05_difficult','V1_01_easy', 'V1_02_medium', 'V1_03_difficult','V2_01_easy', 'V2_02_medium', 'V2_03_difficult'] #
     orin_name = "image0_orb_Rota_Geo_Affine_Repro_npz"
     for i in indices:
-        img_folder = "/media/vigi/Elements/UAV/EuRoC/" + i + "/mav0"
+        img_folder = ""
         if not os.path.exists(img_folder + '/' + orin_name):
             os.makedirs(img_folder + '/' + orin_name)
             print(f"文件夹 '{img_folder + '/' + orin_name}' Creat")
