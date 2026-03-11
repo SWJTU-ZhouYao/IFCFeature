@@ -158,8 +158,8 @@ if __name__ == "__main__":
     indices = ['MH_01_easy']
     for sequence_name in indices:
         print("Staring sequence：", sequence_name)
-        folder_path = r"G:\UAV\EuRoC\MH_01_easy\mav0\cam0/data"
-        output_dir = r"G:\UAV\EuRoC\MH_01_easy\mav0\cam0/data_changed_new"
+        folder_path = ""
+        output_dir = ""
         os.makedirs(output_dir, exist_ok=True)
         file_names = os.listdir(folder_path)
         full_paths = [os.path.join(folder_path, f) for f in file_names]
